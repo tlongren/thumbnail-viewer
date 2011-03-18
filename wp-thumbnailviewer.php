@@ -3,7 +3,7 @@
 Plugin Name: Thumbnail Viewer
 Plugin URI: http://www.longren.org/wordpress/thumbnail-viewer/
 Description: <a href="http://www.longren.org/wordpress/thumbnail-viewer/">Thumbnail Viewer</a> is a simple plugin for showing larger images of your thumbnails. It's very similar to Lightbox, only much smaller. Add the rel="thumbnail" attribute to any link tag to activate the thumbnail viewer. It's based the <a href="http://zeo.unic.net.my/notes/lightbox-js-version-20/">wp-lightbox plugin</a> and on the <a href="http://www.dynamicdrive.com/dynamicindex4/thumbnail.htm">Image Thumbnail Viewer from Dynamic Drive</a>.
-Version: 1.2
+Version: 1.3
 Author: Tyler Longren
 Author URI: http://www.longren.org/
 License: Creative Commons Attribution-ShareAlike
