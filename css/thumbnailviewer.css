@@ -34,3 +34,6 @@ background-color: #EFEFEF;
 padding: 5px;
 z-index: 5;
 }
+#thumbnail-viewer-caption {
+text-align:center;
+}

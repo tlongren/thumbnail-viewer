@@ -60,7 +60,7 @@ if (this.thumbBox.style.visibility=="visible") //if thumbox is visible on the pa
 this.closeit() //Hide it first (not doing so causes triggers some positioning bug in Firefox
 var imageHTML='<img src="'+link.getAttribute("href")+'" style="'+this.opacitystring+'" />' //Construct HTML for shown image
 if (this.enableTitle && link.getAttribute("title")) //Use title attr of the link as description?
-imageHTML+='<br />'+link.getAttribute("title")
+imageHTML+='<p id="thumbnail-viewer-caption">'+link.getAttribute("title")+'</p>'
 this.centerDiv(this.thumbLoading) //Center and display "loading" div while we set up the image to be shown
 this.thumbImage.innerHTML=imageHTML //Populate thumbImage div with shown image's HTML (while still hidden)
 this.featureImage=this.thumbImage.getElementsByTagName("img")[0] //Reference shown image itself
